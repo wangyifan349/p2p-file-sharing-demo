@@ -8,29 +8,25 @@ The server, built with Flask, provides file search and download endpoints while 
 
 ## 目录 / Structure  
 ├── client.py       # 客户端代码 / Client code
+
 ├── server.py       # 服务端代码 / Server code
+
 ├── uploads/        # 文件存放目录 / Directory for uploaded files
-└── README.md       # 项目说明
+└── README.md    
+
 
 ## 使用 / Usage
 
 ### 服务端 / Server  
-1. 将文件放入 `uploads/` 目录。  
-2. 运行服务端：  
-   ```bash
+1. 将文件放入 `uploads/` 目录。
+ 
    python server.py
-   ```
+  
 
 ### 客户端 / Client  
-1. 在 `client.py` 中配置节点地址和文件哈希。  
-2. 运行客户端：  
-   ```bash
+客户端中添加节点，并直接运行
+
    python client.py
-   ```
 
 ## 许可 / License  
 MIT License
-
----
-
-简单、直接。请根据具体需求进一步修改。
